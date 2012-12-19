@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Testing D3</title>
+        <style>
+            html, body 
+            {  
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            rect {
+                fill: #fff;
+            }
+            .node {
+                fill: yellow;
+                stroke:orange;
+            }
+            .box {
+                background-color: skyblue;
+                width: 24px;
+                height: 18px;
+                padding: 4px;
+                margin: 1px;
+            }
+            .cursor {
+                fill: none;
+                stroke: brown;
+                cursor:pointer;
+                pointer-events: none;
+            }
+            .link {
+                stroke: #999;
+                stroke-width:2px;
+            }    
+        </style>
+    </head>
+    <body>
+        <div id="pallatte"> </div>
+        <script src="assets/js/libs/d3.v2.js"></script>
+        <script src="assets/js/app/yasv.js"></script>
+    </body>
+</html>
