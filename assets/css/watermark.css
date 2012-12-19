@@ -1,3 +1,183 @@
 .lookupTable {
-    background-color:#a0a0a0;
+    background-color:#ccc;
+}
+
+/** Main ********************/
+
+body {
+	margin:auto;
+	padding:0;
+	font-family: Helvetica, Arial, sans-serif;
+	background:#fff;
+	text-align:left;
+}
+
+#wrapper {
+	padding:0;
+	margin:0 auto;
+	width:1024px;
+	height:768px;
+	background:#ccc;
+}
+
+#code {
+	float:left;
+	padding:0;
+	margin:0;
+	width:485px;
+	height:340px;
+}
+
+#output {
+	float:left;
+	padding:0;
+	margin:2px 0 0 10px;
+	width:360px;
+	height:336px;
+	background:#fff;
+	overflow:hidden;
+	border:1px solid #000;
+}
+
+#type {
+	float:left;
+	padding:0;
+	margin:0;
+	width:1024px;
+	height:768px;
+	background:#ccc;
+}
+
+.side {
+	float:left;
+	padding:0;
+	margin:0 0 0 15px;
+	width:15px;
+	height:340px;
+}
+
+.col {
+	float:left;
+	padding:0;
+	margin:0;
+	width:80px;
+	height:340px;
+}
+
+.center {
+	float:left;
+	padding:0;
+	margin:0;
+	width:320px;
+	height:340px;
+}
+
+.nobox {
+	float:left;
+	padding:0;
+	margin:0;
+	width:100px;
+	height:20px;
+}
+
+.box {
+	float:left;
+	padding:0;
+	margin:1px;
+	width:78px;
+	height:18px;
+	background:#fff;
+	text-align:center;
+}
+
+.tbox {
+	float:left;
+	padding:0;
+	margin:1px;
+	width:78px;
+	height:18px;
+	background:#ffea98;
+	text-align:center;
+}
+
+.cbox {
+	float:left;
+	padding:0;
+	margin:1px;
+	width:78px;
+	height:18px;
+	background:#91c3fe;
+	text-align:center;
+}
+
+.abox {
+	float:left;
+	padding:0;
+	margin:1px;
+	width:78px;
+	height:18px;
+	background:#cbf67c;
+	text-align:center;
+}
+
+.gbox {
+	float:left;
+	padding:0;
+	margin:1px;
+	width:78px;
+	height:18px;
+	background:#f38a85;
+	text-align:center;
+}
+
+.ttallbox {
+	float:left;
+	padding:30px 0 0 0;
+	margin:1px;
+	width:78px;
+	height:48px;
+	background:#ffea98;
+	text-align:center;
+}
+
+.ctallbox {
+	float:left;
+	padding:30px 0 0 0;
+	margin:1px;
+	width:78px;
+	height:48px;
+	background:#91c3fe;
+	text-align:center;
+}
+
+.atallbox {
+	float:left;
+	padding:30px 0 0 0;
+	margin:1px;
+	width:78px;
+	height:48px;
+	background:#cbf67c;
+	text-align:center;
+}
+
+.gtallbox {
+	float:left;
+	padding:30px 0 0 0;
+	margin:1px;
+	width:78px;
+	height:48px;
+	background:#f38a85;
+	text-align:center;
+}
+
+p.css-vertical-text {
+	float:left;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+	white-space:nowrap;
+	bottom:0;
+	font-size:24px;
+	line-height:24px;
+	font-weight:normal;
 }
