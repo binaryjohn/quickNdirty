@@ -1,8 +1,11 @@
+var testString = "";
 (function (){
-    $("#inputBx").bind("keypress",function (e){
+    $("#inputBx").bind("keyup",function (e){
         var box =$("#inputBx"); 
         var tempString = '';
         var sourceString = box.val();
+        testString = sourceString;
+        console.log("Pressed"+testString);
         for (characterOrDigit in sourceString){
             tempString += lookUp(characterOrDigit);
         }
@@ -14,5 +17,6 @@ function renderTxt(stringToRender){
     $("#output").html(stringToRender);
 }
 function lookUp(character){
+    console.log("rendering ->"+testString);
     return tableTBL[character.toLowerCase()];
 }
